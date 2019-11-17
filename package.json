@@ -1,0 +1,22 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "the game rock, paper, scissors",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html --out-dir ./dev",
+    "build-prod": "parcel build src/index.html --out-dir ./prod"
+  },
+  "keywords": [
+    "ELM",
+    "GAME"
+  ],
+  "author": "Jonathan HETEAU",
+  "license": "ISC",
+  "devDependencies": {
+    "elm-hot": "^1.1.3",
+    "node-elm-compiler": "^5.0.4",
+    "sass": "^1.23.3",
+    "typescript": "^3.7.2"
+  }
+}

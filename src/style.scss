@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+$rock: rgb(146, 146, 146);
+$rock-invert: invert($rock);
+$paper: rgb(255, 199, 45);
+$paper-invert: invert($paper);
+$scissors: rgb(0, 0, 0);
+$scissors-invert: invert($scissors);
+
+.titles {
+  height: auto;
+  padding: 1.5em;
+  background-color: rgb(255, 255, 255);
+  h1 {
+    font-size: 3.2em;
+    margin: 0;
+  }
+  text-align: center;
+}
+.rock {
+  font-style: normal;
+  font-weight: bold;
+  color: $rock;
+}
+.paper {
+  font-style: italic;
+  color: $paper;
+}
+.scissors {
+  font-style: oblique;
+  color: $scissors;
+}
+
+.button {
+  height: 10rem;
+  font-size: 2em;
+}
+
+.rock-bg-c {
+  background-color: $rock;
+  color: $rock-invert;
+}
+.paper-bg-c {
+  background-color: $paper;
+  color: $paper-invert;
+}
+.scissors-bg-c {
+  background-color: $scissors;
+  color: $scissors-invert;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+}
+
+.win {
+  border-style: solid;
+  border-width: 1em;
+  border-color: black;
+}
+
+.loose {
+  border-style: solid;
+  border-width: 1em;
+  border-color: white;
+  opacity: 0.5;
+}
+
+.null {
+  border-style: solid;
+  border-width: 1em;
+  border-color: white;
+  opacity: 0.5;
+}
