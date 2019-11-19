@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.ts"],"names":[],"mappings":";;;AAEA,aAAA,OAAA,eAAA,QAAA,aAAA,CAAA,OAAA,IAFA,IAAA,EAAA,QAAA,0BAEM,EAAM,EAAA,IAAI,iBAAiB,KAAK,CAAC,MAAM","file":"main.ab216b04.js","sourceRoot":"../src","sourcesContent":["import { Elm } from \"./RockPaperScissor.elm\"\n\nconst app = Elm.RockPaperScissor.init({flags:\"\"});\n\n"]}
